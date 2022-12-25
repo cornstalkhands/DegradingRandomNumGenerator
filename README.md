@@ -1,4 +1,9 @@
 Random number degrades based upon previous num
+
+Making docker image for pi (not bothering with docker-compose)
+    sudo docker build -f Dockerfile -t <imageName:ver> .
+Running image 
+    docker run -it --rm -p 1500:80 <imageName:ver>
 ### `npm start`
 
 Runs the app in the development mode.\
